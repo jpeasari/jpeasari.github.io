@@ -1,13 +1,24 @@
 html,
 body {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: top;
+	justify-content: left;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	background-color: lightblue;
 	font-family: 'Open Sans', sans-serif;
+	/* background-image: url(bioinfo.PNG), url(200.GIF);
+	background-size: 600px 300px;
+    background-position: right top;
+    background-repeat: no-repeat; */
+    
+    
+
+
+
+
+
 }
 
 
@@ -22,6 +33,9 @@ body {
 	flex-direction: row;
 	height: 80%;
 }
+.frame {
+  background-clip: padding-box;
+}
 
 .left,
 .right {
@@ -31,7 +45,7 @@ body {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: right;
 }
 
 .left {
@@ -40,7 +54,7 @@ body {
 }
 
 .profile-picture {
-	border-radius:45%;
+	border-radius:1%;
 }
 
 .social-links {
